@@ -23,9 +23,12 @@ wheels/
 .Spotlight-V100
 .Trashes
 
-# Personal resumes and data
+# Personal candidate resumes (Ignored)
 resume/
-resume
-.resumes/
-*.pdf
-*.docx
+resume/
+resume/*
+
+# Allow demo/dummy resumes for testing
+!.resumes/
+!.resumes/*
+
